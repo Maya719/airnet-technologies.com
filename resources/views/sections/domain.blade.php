@@ -12,7 +12,7 @@
             <div
                 class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border border-gray-100">
                 <div class="relative overflow-hidden h-48">
-                    <img src="{{ asset('assets/img/services/values_1.jpg') }}"
+                    <img src="{{ asset('assets/images/portfolio/web.jpg') }}"
                         class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                         alt="Web Development">
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
@@ -38,7 +38,7 @@
             <div
                 class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border border-gray-100">
                 <div class="relative overflow-hidden h-48">
-                    <img src="{{ asset('assets/img/services/values_2.jpg') }}"
+                    <img src="{{ asset('assets/images/portfolio/android.jpg') }}"
                         class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                         alt="App Development">
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
@@ -64,7 +64,7 @@
             <div
                 class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border border-gray-100">
                 <div class="relative overflow-hidden h-48">
-                    <img src="{{ asset('assets/img/services/values_3.jpg') }}"
+                    <img src="{{ asset('assets/images/portfolio/graphic.jpg') }}"
                         class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                         alt="Graphics Designing">
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
@@ -90,7 +90,7 @@
             <div
                 class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border border-gray-100">
                 <div class="relative overflow-hidden h-48">
-                    <img src="{{ asset('assets/img/services/values_5.jpg') }}"
+                    <img src="{{ asset('assets/images/portfolio/ai.jpg') }}"
                         class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                         alt="Artificial Intelligence">
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
@@ -116,7 +116,7 @@
             <div
                 class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border border-gray-100">
                 <div class="relative overflow-hidden h-48">
-                    <img src="{{ asset('assets/img/services/values_4.jpg') }}"
+                    <img src="{{ asset('assets/images/portfolio/qa.jpg') }}"
                         class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                         alt="Software Quality Assurance">
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
@@ -142,7 +142,7 @@
             <div
                 class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group border border-gray-100">
                 <div class="relative overflow-hidden h-48">
-                    <img src="{{ asset('assets/img/services/values_6.jpg') }}"
+                    <img src="{{ asset('assets/images/portfolio/desktop.jpg') }}"
                         class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                         alt="App Deployment">
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
