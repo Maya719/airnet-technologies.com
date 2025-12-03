@@ -2,7 +2,7 @@
 <section id="counts" class="py-20 bg-primary text-white relative overflow-hidden">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-10">
-        <div class="absolute top-0 left-0 w-full h-full bg-[url('assets/img/pattern.png')] bg-repeat opacity-20"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-[url('assets/images/hero.jpg')] bg-repeat opacity-20"></div>
     </div>
 
     <div class="container mx-auto px-6 relative z-10">

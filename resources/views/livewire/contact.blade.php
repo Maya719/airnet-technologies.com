@@ -1,5 +1,13 @@
 <div>
-    <form wire:submit.prevent="submit" class="space-y-6">
+    <form x-data x-on:submit.prevent="
+        grecaptcha.ready(() => {
+            grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {action: 'submit'})
+                .then(token => {
+                    @this.set('gRecaptchaResponse', token);
+                    @this.call('submit');
+                });
+        })
+    " class="space-y-6">
         @csrf
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="group">
@@ -32,11 +40,6 @@
 
         <input type="hidden" id="g-recaptcha-response" wire:model="gRecaptchaResponse">
 
-        <div wire:ignore id="recaptcha-wrapper">
-            <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="onRecaptchaSuccess">
-            </div>
-        </div>
-
         @if (session()->has('success'))
             <div class="mb-4 p-4 text-sm text-green-700 bg-green-100 rounded-lg">{{ session('success') }}</div>
         @endif
@@ -52,29 +55,5 @@
         </button>
     </form>
 
-    <script src="https://www.google.com/recaptcha/api.js?onload=loadRecaptcha&render=explicit" async defer></script>
-
-    <script>
-        function onRecaptchaSuccess(token) {
-            document.getElementById('g-recaptcha-response').value = token;
-            @this.set('gRecaptchaResponse', token)
-        }
-
-        function loadRecaptcha() {
-            if (document.getElementById('recaptcha-wrapper').innerHTML.trim() === '') {
-                grecaptcha.render('recaptcha-wrapper', {
-                    sitekey: '{{ env('RECAPTCHA_SITE_KEY') }}',
-                    callback: onRecaptchaSuccess
-                });
-            }
-        }
-
-        document.addEventListener('livewire:initialized', () => {
-            Livewire.on('reset-recaptcha', () => {
-                document.getElementById('g-recaptcha-response').value = ''
-                document.getElementById('recaptcha-wrapper').innerHTML = ''
-                loadRecaptcha()
-            })
-        })
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
 </div>
