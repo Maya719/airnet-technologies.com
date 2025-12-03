@@ -89,6 +89,8 @@
         });
     </script>
 
+    @stack('scripts')
+
     @include('partials.script')
 </body>
 
