@@ -11,7 +11,6 @@ class Contact extends Component
     public $email;
     public $subject;
     public $message;
-    public $gRecaptchaResponse;
 
     protected function rules()
     {
@@ -20,27 +19,12 @@ class Contact extends Component
             'email' => 'required|email',
             'subject' => 'required|min:3',
             'message' => 'required|min:10',
-            'gRecaptchaResponse' => 'required',
         ];
     }
-
-    protected $messages = [
-        'gRecaptchaResponse.required' => 'Please complete the reCAPTCHA verification.',
-    ];
 
     public function submit()
     {
         $this->validate();
-
-        $verify = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => config('services.recaptcha.secret_key'),
-            'response' => $this->gRecaptchaResponse,
-        ]);
-
-        if (!$verify->json('success')) {
-            session()->flash('error', 'Captcha verification failed');
-            return;
-        }
 
         \App\Models\Contact::create([
             'name' => $this->name,
@@ -50,9 +34,6 @@ class Contact extends Component
         ]);
 
         $this->reset();
-
-        $this->dispatch('reset-recaptcha');
-
         session()->flash('success', 'Message sent successfully!');
     }
 

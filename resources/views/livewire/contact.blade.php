@@ -1,13 +1,5 @@
 <div>
-    <form x-data x-on:submit.prevent="
-        grecaptcha.ready(() => {
-            grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {action: 'submit'})
-                .then(token => {
-                    @this.set('gRecaptchaResponse', token);
-                    @this.call('submit');
-                });
-        })
-    " class="space-y-6">
+    <form wire:submit.prevent="submit" class="space-y-6">
         @csrf
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="group">
@@ -38,8 +30,6 @@
             @error('message') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
         </div>
 
-        <input type="hidden" id="g-recaptcha-response" wire:model="gRecaptchaResponse">
-
         @if (session()->has('success'))
             <div class="mb-4 p-4 text-sm text-green-700 bg-green-100 rounded-lg">{{ session('success') }}</div>
         @endif
@@ -54,6 +44,4 @@
             <span wire:loading>Sending...</span>
         </button>
     </form>
-
-    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
 </div>
