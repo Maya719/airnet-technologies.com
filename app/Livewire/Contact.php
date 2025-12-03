@@ -39,7 +39,7 @@ class Contact extends Component
 
         if (!$verify->json('success')) {
             session()->flash('error', 'Captcha verification failed');
-            $this->reset();
+            return;
         }
 
         \App\Models\Contact::create([
