@@ -1,3 +1,50 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+    --color-primary: #193a66;
+    --color-secondary: #3b82f6;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        @apply bg-white text-gray-800 font-sans antialiased;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold text-gray-800;
+    }
+    p {
+        @apply text-gray-700 leading-relaxed;
+    }
+    a {
+        @apply transition-colors duration-200;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply px-6 py-3 bg-primary text-white font-semibold rounded-full transition-all hover:bg-blue-900 shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+    }
+    .glass {
+        @apply bg-white/70 backdrop-blur-md border border-white/50 shadow-lg;
+    }
+    .section-title {
+        @apply text-3xl md:text-4xl font-bold mb-6 text-center;
+    }
+}
+.legal-box {
+    padding: 8rem;
+}

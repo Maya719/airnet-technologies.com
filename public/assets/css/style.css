@@ -80,11 +80,10 @@ h6 {
     line-height: 1;
     font-weight: 700;
     letter-spacing: 0.5px;
-
 }
 
 #header .logo a {
-    color:#193a66;
+    color: #193a66;
 }
 
 .navigation_bar {
@@ -94,26 +93,20 @@ h6 {
     align-items: center;
 }
 
-
 #header .logo img {
     max-height: 70px;
 }
 
-
-
-
-.navigation_bar_2{
+.navigation_bar_2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo_2 img{
+.logo_2 img {
     max-height: 70px;
-
 }
-
 
 @media (max-width: 991px) {
     #header {
@@ -147,7 +140,7 @@ h6 {
 .navbar a:focus {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 10px 0 10px 30px;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
@@ -401,8 +394,8 @@ h6 {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background:#193a66;
-    box-shadow: 0 8px 28px #286fcc;;
+    background: #193a66;
+    box-shadow: 0 8px 28px #286fcc;
 }
 
 #hero .btn-get-started:hover {
@@ -560,6 +553,10 @@ section {
     box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
+.btn-read-more:hover {
+    color: #f5b51b;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -605,19 +602,17 @@ section {
     box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
+.about .btn-read-more:hover {
+    color: #f5b51b;
+}
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-.choose_us{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    .choose_us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
-}
-
 
 /*--------------------------------------------------------------
 # Featured Services
@@ -700,8 +695,6 @@ section {
 .choose_us_txt {
     border-bottom: 2px solid #5f687b;
 }
-
-
 
 /*--------------------------------------------------------------
 # Counts
@@ -1145,8 +1138,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-    background: #206bfb;
-    border-color: #206bfb;
+    background: #f5b51b;
+    border-color: #f5b51b;
 }
 
 /*--------------------------------------------------------------
@@ -1178,7 +1171,6 @@ section {
     background-color: #4154f1;
 }
 
-
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
@@ -1199,15 +1191,12 @@ section {
     overflow: hidden;
     margin: -30px -30px 15px -30px;
     position: relative;
-
-
-
 }
 
 .recent-blog-posts .post-box .post-img img {
     transition: 0.5s;
 
-   min-height:25rem;
+    min-height: 25rem;
 }
 
 .recent-blog-posts .post-box .post-date {
@@ -1301,14 +1290,12 @@ section {
     margin: 0 2px;
 }
 
-
 /* View more team page*/
 
-.more_member{
+.more_member {
     box-shadow: 0px 2px 5px #b3b2b2;
     padding: 5%;
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -1487,18 +1474,17 @@ section {
 }
 
 .btn-submit:hover {
-    background: #165ebb;
+    background: #f5b51b;
     border: 0;
     padding: 10px 24px;
     transition: 0.4s;
     border-radius: 10px;
-    color: #d8d6d6;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-top: 5%;
-    box-shadow: 0px 2px 5px #165ebb;
+    box-shadow: 0px 2px 5px #f5b51b;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1512,7 +1498,7 @@ section {
     align-items: center;
 }
 
-.form-container form{
+.form-container form {
     width: 50%;
 }
 
@@ -1533,7 +1519,6 @@ section {
         align-items: flex-start;
     }
     .form-container form {
-
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1713,10 +1698,6 @@ section {
         text-align-last: center;
     }
 }
-
-
-/* --- */
-
 .description-container {
     max-height: 10rem;
     overflow: hidden;
@@ -1749,12 +1730,10 @@ section {
     border-radius: 5px;
 
     transition: background-color 0.3s ease;
-
 }
 
 .read-more-button:hover {
-    background-color: #F5B51B;
-
+    background-color: #f5b51b;
 }
 .buy-now {
     display: none;
@@ -1778,11 +1757,8 @@ section {
     border-radius: 5px;
 
     transition: background-color 0.3s ease;
-
 }
 
 .buy-now:hover {
-    background-color: #F5B51B;
-
+    background-color: #f5b51b;
 }
-
