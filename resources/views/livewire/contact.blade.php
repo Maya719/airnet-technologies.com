@@ -10,7 +10,7 @@
             {{ session('error') }}
         </div>
     @endif
-    <form wire:submit.prevent="submit" class="space-y-6" id="contactForm">
+    <form wire:submit.prevent="submit" class="space-y-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="group">
                 <label class="block text-sm font-medium text-gray-700 mb-2">Your Name</label>
@@ -40,33 +40,34 @@
             @error('message') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
         </div>
 
-        <input type="hidden" wire:model="recaptcha_token" id="recaptchaToken">
-
-        @error('recaptcha_token') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
+        <!-- reCAPTCHA v2 -->
+        <div class="group">
+            <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"
+                data-callback="onRecaptchaSuccess"></div>
+            @error('recaptcha') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
+        </div>
 
         <button type="submit" wire:loading.attr="disabled"
             class="w-full lg:w-auto inline-flex items-center justify-center px-8 py-3 bg-primary text-white font-bold rounded-lg disabled:opacity-50">
             Send Message
         </button>
     </form>
-</div>
 
-@push('scripts')
-    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const form = document.getElementById('contactForm');
+    @push('scripts')
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script>
+            function onRecaptchaSuccess(token) {
+                @this.set('recaptcha', token);
+            }
 
-            form.addEventListener('submit', function (e) {
-                e.preventDefault();
-
-                grecaptcha.ready(function () {
-                    grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', { action: 'contact_form' }).then(function (token) {
-                        @this.set('recaptcha_token', token);
-                        @this.call('submit');
-                    });
+            // Reset reCAPTCHA when form is submitted
+            document.addEventListener('livewire:init', () => {
+                Livewire.on('reset-recaptcha', () => {
+                    if (typeof grecaptcha !== 'undefined') {
+                        grecaptcha.reset();
+                    }
                 });
             });
-        });
-    </script>
-@endpush
+        </script>
+    @endpush
+</div>
