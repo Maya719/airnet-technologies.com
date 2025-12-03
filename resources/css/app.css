@@ -48,3 +48,13 @@
 .legal-box {
     padding: 8rem;
 }
+/* Products dropdown hover fix */
+.products-dropdown:hover .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+}
+
+.products-dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+}

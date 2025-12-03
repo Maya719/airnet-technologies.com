@@ -10,110 +10,6 @@
             </p>
         </div>
 
-        <!-- Product 1: PERI (Card Left, Details Right) -->
-        <div class="max-w-6xl mx-auto mb-20">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Left: Card -->
-                <div class="order-2 lg:order-1">
-                    <div
-                        class="group relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
-                        <div class="relative h-96 bg-gradient-to-br from-primary to-blue-900 overflow-hidden">
-                            <div class="absolute inset-0 bg-black/20"></div>
-                            <!-- Decorative Elements -->
-                            <div
-                                class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl">
-                            </div>
-                            <div
-                                class="absolute bottom-0 left-0 w-48 h-48 bg-blue-400/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl">
-                            </div>
-
-                            <div
-                                class="absolute inset-0 flex flex-col items-center justify-center p-8 text-white text-center">
-                                <i
-                                    class="bi bi-people-fill text-8xl mb-6 drop-shadow-2xl group-hover:scale-110 transition-transform"></i>
-                                <h3 class="text-5xl font-bold text-white/90 drop-shadow-lg mb-3">PERI</h3>
-                                <p class="text-2xl font-medium text-white/90 mb-8">Plan Execute Review & Improve</p>
-                                <div class="flex flex-wrap gap-2 justify-center">
-                                    <span
-                                        class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">HR
-                                        Management</span>
-                                    <span
-                                        class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">Payroll</span>
-                                    <span
-                                        class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">Attendance</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Right: Details -->
-                <div class="order-1 lg:order-2">
-                    <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">PERI</h3>
-                    <h4 class="text-xl md:text-2xl font-semibold text-primary mb-6">Smarter Workforce & Payroll
-                        Management</h4>
-                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                        A unified real-time dashboard for attendance, payroll, and performance analytics — crafted for
-                        modern teams. Streamline HR operations with powerful tools designed for maximum efficiency.
-                    </p>
-
-                    <!-- Key Features -->
-                    <div class="space-y-4 mb-8">
-                        <div class="flex items-start gap-4 group">
-                            <div
-                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
-                            </div>
-                            <div>
-                                <h5 class="font-semibold text-gray-800 mb-1">Advanced Attendance & Time Tracking</h5>
-                                <p class="text-gray-600 text-sm">Biometric integration with real-time attendance
-                                    monitoring</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 group">
-                            <div
-                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
-                            </div>
-                            <div>
-                                <h5 class="font-semibold text-gray-800 mb-1">Automated Payroll with Tax Calculation</h5>
-                                <p class="text-gray-600 text-sm">Smart payroll processing with automatic tax compliance
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 group">
-                            <div
-                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
-                            </div>
-                            <div>
-                                <h5 class="font-semibold text-gray-800 mb-1">Intelligent Shift Management</h5>
-                                <p class="text-gray-600 text-sm">Flexible scheduling with leave hierarchy and policy
-                                    management</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 group">
-                            <div
-                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
-                            </div>
-                            <div>
-                                <h5 class="font-semibold text-gray-800 mb-1">Real-time Analytics & Reports</h5>
-                                <p class="text-gray-600 text-sm">Data-driven insights for better workforce decisions</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CTA Button -->
-                    <a href="https://peri.airnet-technologies.com/" target="_blank"
-                        class="inline-flex items-center gap-3 px-8 py-4 bg-primary text-white font-bold rounded-full hover:bg-blue-900 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 group">
-                        <span>Explore PERI</span>
-                        <i class="bi bi-arrow-right text-xl group-hover:translate-x-2 transition-transform"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-
         <!-- Product 2: PIE (Details Left, Card Right) -->
         <div class="max-w-6xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -228,6 +124,110 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 1: PERI (Card Left, Details Right) -->
+        <div class="max-w-6xl mx-auto mb-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left: Card -->
+                <div class="order-2 lg:order-1">
+                    <div
+                        class="group relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
+                        <div class="relative h-96 bg-gradient-to-br from-primary to-blue-900 overflow-hidden">
+                            <div class="absolute inset-0 bg-black/20"></div>
+                            <!-- Decorative Elements -->
+                            <div
+                                class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl">
+                            </div>
+                            <div
+                                class="absolute bottom-0 left-0 w-48 h-48 bg-blue-400/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl">
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-center p-8 text-white text-center">
+                                <i
+                                    class="bi bi-people-fill text-8xl mb-6 drop-shadow-2xl group-hover:scale-110 transition-transform"></i>
+                                <h3 class="text-5xl font-bold text-white/90 drop-shadow-lg mb-3">PERI</h3>
+                                <p class="text-2xl font-medium text-white/90 mb-8">Plan Execute Review & Improve</p>
+                                <div class="flex flex-wrap gap-2 justify-center">
+                                    <span
+                                        class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">HR
+                                        Management</span>
+                                    <span
+                                        class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">Payroll</span>
+                                    <span
+                                        class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">Attendance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Details -->
+                <div class="order-1 lg:order-2">
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">PERI</h3>
+                    <h4 class="text-xl md:text-2xl font-semibold text-primary mb-6">Smarter Workforce & Payroll
+                        Management</h4>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        A unified real-time dashboard for attendance, payroll, and performance analytics — crafted for
+                        modern teams. Streamline HR operations with powerful tools designed for maximum efficiency.
+                    </p>
+
+                    <!-- Key Features -->
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start gap-4 group">
+                            <div
+                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-800 mb-1">Advanced Attendance & Time Tracking</h5>
+                                <p class="text-gray-600 text-sm">Biometric integration with real-time attendance
+                                    monitoring</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 group">
+                            <div
+                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-800 mb-1">Automated Payroll with Tax Calculation</h5>
+                                <p class="text-gray-600 text-sm">Smart payroll processing with automatic tax compliance
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 group">
+                            <div
+                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-800 mb-1">Intelligent Shift Management</h5>
+                                <p class="text-gray-600 text-sm">Flexible scheduling with leave hierarchy and policy
+                                    management</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 group">
+                            <div
+                                class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-green-600 text-xl font-bold"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-800 mb-1">Real-time Analytics & Reports</h5>
+                                <p class="text-gray-600 text-sm">Data-driven insights for better workforce decisions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <a href="https://peri.airnet-technologies.com/" target="_blank"
+                        class="inline-flex items-center gap-3 px-8 py-4 bg-primary text-white font-bold rounded-full hover:bg-blue-900 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 group">
+                        <span>Explore PERI</span>
+                        <i class="bi bi-arrow-right text-xl group-hover:translate-x-2 transition-transform"></i>
+                    </a>
                 </div>
             </div>
         </div>

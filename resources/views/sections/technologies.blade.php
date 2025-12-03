@@ -15,6 +15,49 @@
                 <!-- Technologies Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
+                        <!-- Kotlin -->
+                        <div
+                                class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
+                                <div
+                                        class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl mb-6 group-hover:scale-110 transition-transform">
+                                        <i class="bi bi-phone text-3xl text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Java & Kotlin</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">
+                                        Modern Android app development with concise, safe, and interoperable code.
+                                </p>
+                                <div class="flex flex-wrap gap-2">
+                                        <span
+                                                class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Java</span>
+                                        <span
+                                                class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">Kotlin</span>
+                                        <span
+                                                class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">Android</span>
+                                </div>
+                        </div>
+
+                        <!-- Spring Boot -->
+                        <div
+                                class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
+                                <div
+                                        class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl mb-6 group-hover:scale-110 transition-transform">
+                                        <i class="bi bi-gear-fill text-3xl text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Spring Boot</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">
+                                        Enterprise-grade Java applications with microservices architecture and RESTful
+                                        APIs.
+                                </p>
+                                <div class="flex flex-wrap gap-2">
+                                        <span
+                                                class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">Spring
+                                                Boot</span>
+                                        <span
+                                                class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">Java</span>
+                                        <span
+                                                class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">Microservices</span>
+                                </div>
+                        </div>
                         <!-- PHP & Laravel -->
                         <div
                                 class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
@@ -81,49 +124,6 @@
                                 </div>
                         </div>
 
-                        <!-- Kotlin -->
-                        <div
-                                class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-                                <div
-                                        class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl mb-6 group-hover:scale-110 transition-transform">
-                                        <i class="bi bi-phone text-3xl text-white"></i>
-                                </div>
-                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Kotlin</h3>
-                                <p class="text-gray-600 leading-relaxed mb-4">
-                                        Modern Android app development with concise, safe, and interoperable code.
-                                </p>
-                                <div class="flex flex-wrap gap-2">
-                                        <span
-                                                class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Kotlin</span>
-                                        <span
-                                                class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">Android</span>
-                                        <span
-                                                class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">Jetpack</span>
-                                </div>
-                        </div>
-
-                        <!-- Spring Boot -->
-                        <div
-                                class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-                                <div
-                                        class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl mb-6 group-hover:scale-110 transition-transform">
-                                        <i class="bi bi-gear-fill text-3xl text-white"></i>
-                                </div>
-                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Spring Boot</h3>
-                                <p class="text-gray-600 leading-relaxed mb-4">
-                                        Enterprise-grade Java applications with microservices architecture and RESTful
-                                        APIs.
-                                </p>
-                                <div class="flex flex-wrap gap-2">
-                                        <span
-                                                class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">Spring
-                                                Boot</span>
-                                        <span
-                                                class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">Java</span>
-                                        <span
-                                                class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">Microservices</span>
-                                </div>
-                        </div>
 
                         <!-- More Technologies -->
                         <div

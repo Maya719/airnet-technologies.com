@@ -42,19 +42,6 @@
     <!-- Icons -->
     <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-
-    <style>
-        /* Products dropdown hover fix */
-        .products-dropdown:hover .dropdown-menu {
-            opacity: 1 !important;
-            visibility: visible !important;
-            pointer-events: auto !important;
-        }
-
-        .products-dropdown:hover .dropdown-icon {
-            transform: rotate(180deg);
-        }
-    </style>
 </head>
 
 <body class="font-sans text-gray-800 antialiased">
