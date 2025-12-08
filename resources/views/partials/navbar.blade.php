@@ -31,19 +31,19 @@
               class="dropdown-menu absolute top-full left-0 pt-2 w-72 opacity-0 invisible transition-all duration-200 pointer-events-none">
               <div class="bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden">
                 <!-- PIE First -->
-                <a href="https://perceptionie.uk" target="_blank"
-                  class="flex items-center gap-3 px-4 py-3 hover:bg-purple-50/50 transition-colors group/item">
+                <a href="{{ route('pie') }}" target="_blank"
+                  class="flex items-center gap-3 px-4 py-3 hover:bg-[#008080]/5 transition-colors group/item">
                   <div
-                    class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                    class="w-10 h-10 bg-gradient-to-br from-[#008080] to-[#20b2aa] rounded-lg flex items-center justify-center flex-shrink-0">
                     <i class="bi bi-pie-chart-fill text-white text-lg"></i>
                   </div>
                   <div class="flex-1">
-                    <div class="font-semibold text-gray-800 group-hover/item:text-purple-600 transition-colors">PIE
+                    <div class="font-semibold text-gray-800 group-hover/item:text-[#008080] transition-colors">PIE
                     </div>
                     <div class="text-xs text-gray-500 whitespace-nowrap">Perception Insight Explorer</div>
                   </div>
                   <i
-                    class="bi bi-arrow-up-right text-gray-400 group-hover/item:text-purple-600 opacity-0 group-hover/item:opacity-100 transition-all"></i>
+                    class="bi bi-arrow-up-right text-gray-400 group-hover/item:text-[#008080] opacity-0 group-hover/item:opacity-100 transition-all"></i>
                 </a>
                 <div class="h-px bg-gray-100"></div>
                 <!-- PERI Second -->
@@ -100,10 +100,10 @@
         <li class="border-t border-gray-200 mt-2 pt-2">
           <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
           <!-- PIE First -->
-          <a href="https://perceptionie.uk" target="_blank"
-            class="flex items-center gap-3 py-3 px-4 text-gray-700 hover:bg-purple-50 transition-colors">
+          <a href="{{ route('pie') }}" target="_blank"
+            class="flex items-center gap-3 py-3 px-4 text-gray-700 hover:bg-[#008080]/10 transition-colors">
             <div
-              class="w-8 h-8 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
+              class="w-8 h-8 bg-gradient-to-br from-[#008080] to-[#20b2aa] rounded-lg flex items-center justify-center flex-shrink-0">
               <i class="bi bi-pie-chart-fill text-white text-sm"></i>
             </div>
             <div>
@@ -186,30 +186,30 @@
     document.querySelectorAll('a[href*="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
-        
+
         // Skip external links
         if (href.startsWith('http') && !href.includes(window.location.hostname)) {
           return;
         }
-        
+
         // Extract hash from various formats: "#about", "/#about", "http://site.com/#about"
         let hash = '';
         if (href.includes('#')) {
           hash = href.split('#')[1];
         }
-        
+
         // Skip if no hash or just "#"
         if (!hash || hash === '') return;
-        
+
         const targetElement = document.getElementById(hash);
-        
+
         if (targetElement) {
           e.preventDefault();
           targetElement.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
           });
-          
+
           // Update URL without jumping
           if (window.location.pathname === '/') {
             history.pushState(null, '', '#' + hash);

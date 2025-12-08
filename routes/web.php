@@ -32,3 +32,10 @@ Route::get('payment/fail', [PaymentController::class, 'cancel'])->name('payment.
 
 Route::get('/payment/stripe/callback', [PaymentController::class, 'callback'])->name('payments.callback');
 Route::get('/payment/myfatoorah/callback', [PaymentController::class, 'callback'])->name('myfatoorah.callback');
+
+/**
+ * 
+ *  Products Pages
+ * 
+ */
+Route::get('/pie', [HomeController::class, 'pie'])->name('pie');

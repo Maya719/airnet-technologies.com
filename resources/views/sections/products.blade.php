@@ -17,7 +17,7 @@
                 <div class="order-1 lg:order-1">
                     <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">PIE</h3>
                     <h4
-                        class="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 mb-6">
+                        class="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#008080] to-[#20b2aa] mb-6">
                         Perception & Insights Explorer</h4>
                     <p class="text-gray-600 text-lg mb-8 leading-relaxed">
                         Transform overwhelming customer reviews into clear, actionable insights. PIE cuts through the
@@ -27,22 +27,22 @@
                     <!-- Stats Grid -->
                     <div class="grid grid-cols-2 gap-4 mb-8">
                         <div
-                            class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-100 to-purple-50 p-6 group hover:shadow-lg transition-all">
+                            class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#008080]/10 to-[#008080]/5 p-6 group hover:shadow-lg transition-all">
                             <div
-                                class="absolute top-0 right-0 w-20 h-20 bg-purple-200/30 rounded-full -translate-y-1/2 translate-x-1/2">
+                                class="absolute top-0 right-0 w-20 h-20 bg-[#008080]/20 rounded-full -translate-y-1/2 translate-x-1/2">
                             </div>
                             <div class="relative">
-                                <div class="text-4xl font-bold text-purple-600 mb-2">91%</div>
+                                <div class="text-4xl font-bold text-[#008080] mb-2">91%</div>
                                 <div class="text-sm text-gray-600 font-medium">Trust Online Reviews</div>
                             </div>
                         </div>
                         <div
-                            class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-pink-100 to-pink-50 p-6 group hover:shadow-lg transition-all">
+                            class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#20b2aa]/10 to-[#20b2aa]/5 p-6 group hover:shadow-lg transition-all">
                             <div
-                                class="absolute top-0 right-0 w-20 h-20 bg-pink-200/30 rounded-full -translate-y-1/2 translate-x-1/2">
+                                class="absolute top-0 right-0 w-20 h-20 bg-[#20b2aa]/20 rounded-full -translate-y-1/2 translate-x-1/2">
                             </div>
                             <div class="relative">
-                                <div class="text-4xl font-bold text-pink-600 mb-2">83%</div>
+                                <div class="text-4xl font-bold text-[#008080] mb-2">83%</div>
                                 <div class="text-sm text-gray-600 font-medium">Value Customer Service</div>
                             </div>
                         </div>
@@ -52,8 +52,8 @@
                     <div class="space-y-4 mb-8">
                         <div class="flex items-start gap-4 group">
                             <div
-                                class="flex-shrink-0 w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-purple-600 text-xl font-bold"></i>
+                                class="flex-shrink-0 w-10 h-10 bg-[#008080]/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-[#008080] text-xl font-bold"></i>
                             </div>
                             <div>
                                 <h5 class="font-semibold text-gray-800 mb-1">Instant Customer Sentiment Analysis</h5>
@@ -62,8 +62,8 @@
                         </div>
                         <div class="flex items-start gap-4 group">
                             <div
-                                class="flex-shrink-0 w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-purple-600 text-xl font-bold"></i>
+                                class="flex-shrink-0 w-10 h-10 bg-[#008080]/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-[#008080] text-xl font-bold"></i>
                             </div>
                             <div>
                                 <h5 class="font-semibold text-gray-800 mb-1">Automated Review Processing</h5>
@@ -73,8 +73,8 @@
                         </div>
                         <div class="flex items-start gap-4 group">
                             <div
-                                class="flex-shrink-0 w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="bi bi-check-lg text-purple-600 text-xl font-bold"></i>
+                                class="flex-shrink-0 w-10 h-10 bg-[#008080]/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="bi bi-check-lg text-[#008080] text-xl font-bold"></i>
                             </div>
                             <div>
                                 <h5 class="font-semibold text-gray-800 mb-1">Key Topic & Trend Identification</h5>
@@ -84,8 +84,8 @@
                     </div>
 
                     <!-- CTA Button -->
-                    <a href="https://perceptionie.uk" target="_blank"
-                        class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 group">
+                    <a href="{{ route('pie') }}" target="_blank"
+                        class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#008080] to-[#20b2aa] text-white font-bold rounded-full hover:from-[#006666] hover:to-[#008080] transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 group">
                         <span>Explore PIE</span>
                         <i class="bi bi-arrow-right text-xl group-hover:translate-x-2 transition-transform"></i>
                     </a>
@@ -95,14 +95,14 @@
                 <div class="order-2 lg:order-2">
                     <div
                         class="group relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
-                        <div class="relative h-96 bg-gradient-to-br from-purple-600 to-pink-600 overflow-hidden">
+                        <div class="relative h-96 bg-gradient-to-br from-[#008080] to-[#20b2aa] overflow-hidden">
                             <div class="absolute inset-0 bg-black/20"></div>
                             <!-- Decorative Elements -->
                             <div
                                 class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl">
                             </div>
                             <div
-                                class="absolute bottom-0 left-0 w-48 h-48 bg-pink-400/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl">
+                                class="absolute bottom-0 left-0 w-48 h-48 bg-[#40e0d0]/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl">
                             </div>
 
                             <div

@@ -12,4 +12,8 @@ class HomeController extends Controller
         $categories = Category::with('services')->get();
         return view('welcome', compact('categories'));
     }
+    public function pie()
+    {
+        return view('pie');
+    }
 }
