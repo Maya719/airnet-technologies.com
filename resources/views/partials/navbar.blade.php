@@ -31,7 +31,7 @@
               class="dropdown-menu absolute top-full left-0 pt-2 w-72 opacity-0 invisible transition-all duration-200 pointer-events-none">
               <div class="bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden">
                 <!-- PIE First -->
-                <a href="{{ route('pie') }}"
+                <a href="{{ url('perception/insights/explorer') }}"
                   class="flex items-center gap-3 px-4 py-3 hover:bg-[#008080]/5 transition-colors group/item">
                   <div
                     class="w-10 h-10 bg-gradient-to-br from-[#008080] to-[#20b2aa] rounded-lg flex items-center justify-center flex-shrink-0">
@@ -100,7 +100,7 @@
         <li class="border-t border-gray-200 mt-2 pt-2">
           <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
           <!-- PIE First -->
-          <a href="{{ route('pie') }}"
+          <a href="{{  url('perception/insights/explorer') }}"
             class="flex items-center gap-3 py-3 px-4 text-gray-700 hover:bg-[#008080]/10 transition-colors">
             <div
               class="w-8 h-8 bg-gradient-to-br from-[#008080] to-[#20b2aa] rounded-lg flex items-center justify-center flex-shrink-0">

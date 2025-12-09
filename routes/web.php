@@ -38,4 +38,4 @@ Route::get('/payment/myfatoorah/callback', [PaymentController::class, 'callback'
  *  Products Pages
  * 
  */
-Route::get('/pie', [HomeController::class, 'pie'])->name('pie');
+Route::get('/perception/insights/explorer', [HomeController::class, 'pie'])->name('pie');
