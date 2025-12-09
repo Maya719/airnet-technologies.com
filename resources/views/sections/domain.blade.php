@@ -148,7 +148,7 @@
                     <div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors"></div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-xl font-bold text-gray-800 mb-4 group-hover:text-primary transition-colors">Disktop
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 group-hover:text-primary transition-colors">Desktop
                         Application Deployment</h3>
                     <div class="w-12 h-1 bg-secondary mb-6 rounded-full"></div>
                     <ul class="space-y-3">
