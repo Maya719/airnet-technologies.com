@@ -11,7 +11,7 @@
       <nav class="hidden lg:block">
         <ul class="flex items-center space-x-6 xl:space-x-8">
           <li><a class="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
-              href="{{ url('/#hero') }}">Home</a></li>
+              href="{{ url('/') }}">Home</a></li>
           <li><a class="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
               href="{{ url('/#about') }}">About</a></li>
           <li><a class="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
@@ -47,7 +47,7 @@
                 </a>
                 <div class="h-px bg-gray-100"></div>
                 <!-- PERI Second -->
-                <a href="https://peri.airnet-technologies.com/"
+                <a href="{{ url('plan/execute/review/improve') }}"
                   class="flex items-center gap-3 px-4 py-3 hover:bg-primary/5 transition-colors group/item">
                   <div
                     class="w-10 h-10 bg-gradient-to-br from-primary to-blue-800 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -113,7 +113,7 @@
             <i class="bi bi-arrow-up-right text-gray-400 ml-auto"></i>
           </a>
           <!-- PERI Second -->
-          <a href="https://peri.airnet-technologies.com/"
+          <a href="{{ url('plan/execute/review/improve') }}"
             class="flex items-center gap-3 py-3 px-4 text-gray-700 hover:bg-primary/10 transition-colors">
             <div
               class="w-8 h-8 bg-gradient-to-br from-primary to-blue-800 rounded-lg flex items-center justify-center flex-shrink-0">

@@ -39,3 +39,4 @@ Route::get('/payment/myfatoorah/callback', [PaymentController::class, 'callback'
  * 
  */
 Route::get('/perception/insights/explorer', [HomeController::class, 'pie'])->name('pie');
+Route::get('/plan/execute/review/improve', [HomeController::class, 'peri'])->name('peri');

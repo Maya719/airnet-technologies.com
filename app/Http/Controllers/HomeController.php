@@ -16,4 +16,8 @@ class HomeController extends Controller
     {
         return view('pie');
     }
+    public function peri()
+    {
+        return view('peri');
+    }
 }
