@@ -26,7 +26,7 @@
                 Airnet Technologies
             </h1>
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white/90 drop-shadow-xl">
-                Place of Innovating Solutions
+                A Place of Innovating Solutions
             </h2>
             <p class="text-xl md:text-2xl text-white/80 mb-10 leading-relaxed drop-shadow-lg max-w-3xl mx-auto">
                 We are a team of <span class="font-semibold text-white border-b-2 border-white/50">skilled
