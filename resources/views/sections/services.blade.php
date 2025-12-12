@@ -43,11 +43,6 @@
                                             {{ $service->name }}
                                         </h5>
                                     </a>
-                                    <a href="{{ route('service_detail', ['id' => $service->id]) }}" class="block">
-                                        <p class="text-gray-600 line-clamp-2 text-sm">
-                                            ${{ number_format($service->price, 2) }}
-                                        </p>
-                                    </a>
                                 </div>
                             </div>
                         @endforeach
