@@ -50,7 +50,7 @@
                                 </a>
                                 <div class="h-px bg-gray-100"></div>
                                 <!-- PERI Second -->
-                                <a href="{{ url('Peri') }}"
+                                <a href="{{ route('peri') }}"
                                     class="flex items-center gap-3 px-4 py-3 hover:bg-primary/5 transition-colors group/item">
                                     <div
                                         class="w-10 h-10 bg-gradient-to-br from-primary to-blue-800 rounded-lg flex items-center justify-center flex-shrink-0">
