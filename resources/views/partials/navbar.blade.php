@@ -115,7 +115,7 @@
                         <i class="bi bi-arrow-up-right text-gray-400 ml-auto"></i>
                     </a>
                     <!-- PERI Second -->
-                    <a href="{{ url('Peri') }}"
+                    <a href="{{ route('peri') }}"
                         class="flex items-center gap-3 py-3 px-4 text-gray-700 hover:bg-primary/10 transition-colors">
                         <div
                             class="w-8 h-8 bg-gradient-to-br from-primary to-blue-800 rounded-lg flex items-center justify-center flex-shrink-0">

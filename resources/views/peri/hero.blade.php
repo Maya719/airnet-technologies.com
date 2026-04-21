@@ -120,7 +120,7 @@
                 <div class="relative group">
                     <!-- Main Image - Clean without overlay cards since image is transparent -->
                     <div class="relative transform transition-all duration-500 group-hover:scale-[1.02]">
-                        <img src="{{ asset('peri/hero.png') }}" alt="PERI Dashboard Preview"
+                        <img src="{{ asset('assets/peri/hero.png') }}" alt="PERI Dashboard Preview"
                             class="w-full h-auto object-contain drop-shadow-2xl animate-float"
                             style="filter: drop-shadow(0 25px 50px rgba(25, 58, 102, 0.3));">
                     </div>
