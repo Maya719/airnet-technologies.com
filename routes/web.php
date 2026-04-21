@@ -39,4 +39,4 @@ Route::get('/payment/myfatoorah/callback', [PaymentController::class, 'callback'
  *
  */
 Route::get('/paiex', [HomeController::class, 'pie'])->name('pie');
-Route::get('/Peri', [HomeController::class, 'peri'])->name('peri');
+Route::get('/peri', [HomeController::class, 'peri'])->name('peri');
