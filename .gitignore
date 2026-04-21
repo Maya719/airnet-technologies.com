@@ -15,6 +15,7 @@
 /node_modules
 /public/hot
 /public/storage
+/public/app-ads.txt
 /storage/*.key
 /storage/pail
 /vendor
@@ -22,3 +23,4 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 /.gemini
+.gemini/

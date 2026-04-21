@@ -47,7 +47,7 @@
                 </a>
                 <div class="h-px bg-gray-100"></div>
                 <!-- PERI Second -->
-                <a href="{{ url('peri') }}"
+                <a href="{{ url('Peri') }}"
                   class="flex items-center gap-3 px-4 py-3 hover:bg-primary/5 transition-colors group/item">
                   <div
                     class="w-10 h-10 bg-gradient-to-br from-primary to-blue-800 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -66,7 +66,7 @@
 
           <li>
             <a class="px-5 py-2 bg-primary text-white rounded-full hover:bg-blue-800 transition-all duration-200 shadow-md hover:shadow-lg"
-              href="#contact">Contact</a>
+              href="{{ url('/#contact') }}">Contact</a>
           </li>
         </ul>
       </nav>
@@ -113,7 +113,7 @@
             <i class="bi bi-arrow-up-right text-gray-400 ml-auto"></i>
           </a>
           <!-- PERI Second -->
-          <a href="{{ url('peri') }}"
+          <a href="{{ url('Peri') }}"
             class="flex items-center gap-3 py-3 px-4 text-gray-700 hover:bg-primary/10 transition-colors">
             <div
               class="w-8 h-8 bg-gradient-to-br from-primary to-blue-800 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -129,7 +129,7 @@
 
         <li><a
             class="block py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary font-medium transition-colors mobile-menu-link"
-            href="#contact">Contact</a></li>
+            href="{{ url('/#contact') }}">Contact</a></li>
       </ul>
     </nav>
   </div>
