@@ -38,5 +38,5 @@ Route::get('/payment/myfatoorah/callback', [PaymentController::class, 'callback'
  *  Products Pages
  * 
  */
-Route::get('/perception/insights/explorer', [HomeController::class, 'pie'])->name('pie');
-Route::get('/plan/execute/review/improve', [HomeController::class, 'peri'])->name('peri');
+Route::get('/paiex', [HomeController::class, 'pie'])->name('pie');
+Route::get('/peri', [HomeController::class, 'peri'])->name('peri');
